@@ -1,0 +1,300 @@
+/*Personalização geral do body*/
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: auto;
+    /*height: 5px;*/
+    margin-top: 10px;  
+    border-collapse: collapse; 
+    text-align: center;    
+}
+
+/*----TITULO----*/
+/*Personalização dos títulos P,J,V...*/
+.titulo {
+    height: 25px;
+    font-size: 13px;
+    color: #999999;    
+}
+
+/*----BORDAS LINHAS----*/
+/*Personalização de todas linhas da tabela*/
+.table tr {    
+    height: 30px; 
+    border: 1px solid #DDDDDD;
+}
+
+/*----COLUNAS----*/
+/*Personalização da coluna 1 (Posições)*/
+.table tbody td:nth-child(1) {
+    width: 40px;
+    font-size: 18px;
+    font-weight: bold;          
+}
+
+/*Personalização da coluna 2 (nomes de times)*/
+.table tbody td:nth-child(2) {
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;   
+    text-align: left; 
+    color: #666666;
+}
+
+/*Personalização da coluna 3 (Pontos)*/
+.table tbody td:nth-child(3) { 
+    width: 35px;   
+    font-size: 14px;
+    font-weight: bold;    
+    color: black;
+    background-color:#F7F7F7;
+}
+
+/*Personalização das coluna 5,7,9 e 11*/
+tbody td:nth-child(5), tbody td:nth-child(7), tbody td:nth-child(9) { 
+    width: 35px; 
+    background-color:#F7F7F7;      
+    font-size: 14px;
+    font-weight: normal;    
+    color: #666666;    
+}
+
+/*Personalização das coluna 4,6,8 e 10*/
+.table tbody td:nth-child(4),tbody td:nth-child(6),tbody td:nth-child(8),
+tbody td:nth-child(10){  
+    width: 35px;        
+    font-size: 14px;
+    font-weight: normal;    
+    color: #666666;
+}
+
+/*Personalização da coluna 11(%) */
+tbody td:nth-child(11) { 
+    width: 50px; 
+    background-color:#F7F7F7;      
+    font-size: 14px;
+    font-weight: normal;    
+    color: #666666;    
+}
+
+/*----LINHAS----*/
+/*Personalização da linha 4 e 16 para borda baixa*/
+tbody tr:nth-child(4), tbody tr:nth-child(16) { 
+    border-bottom: 2px solid #CCCCCC;
+}
+
+/*----RODAPÉ----*/
+/**/
+/*Personalização da linha 4 e 16 para borda baixa 2px*/
+tbody tr:nth-child(4), tbody tr:nth-child(16) {    
+    border-bottom: 2px solid #CCCCCC;
+}
+tfoot i:nth-child(1) { /* Elemento Quadrado Libertadores*/   
+    color: #003366;
+    text-indent: 0.5em; 
+}
+tfoot i:nth-child(2) { /* Elemento Quadrado Pré-L*/
+    color: #1398BE;
+    text-indent: 0.5em; 
+    }
+tfoot i:nth-child(3) { /* Elemento Quadrado SUL*/
+    color: #DE9800;
+    text-indent: 0.5em; 
+}
+tfoot i:nth-child(4) { /* Elemento Quadrado REB*/
+    color: #C91B04;
+    text-indent: 0.5em; 
+}
+
+.foot {    
+    padding: 2px;       
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+    
+}
+.siglas {     
+    margin: 5px;
+    color: #555555;    
+    text-align: left;
+}
+
+/*----CORES CLASSIFICAÇÃO----*/
+/*Personalização das cores de classificação*/
+.libertadores {
+    color: #003366;
+}
+.pre-libertadores {
+    color: #1398BE;
+}
+.sul-america {
+    color: #DE9800;
+}
+.risco {
+    color: #CCCCCC;
+}
+.rebaixado{
+    color: #C91B04;
+}
+
+/*---- EXTRA ICONES ----*/
+/*Inclusão de icones*/
+.ic1 {
+    text-indent: 1.5em;
+    background-image: url(./icons/corinthians.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic2 {
+    text-indent: 1.5em;
+    background-image: url(./icons/ceara.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic3 {
+    text-indent: 1.5em;
+    background-image: url(./icons/fluminense.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic4 {
+    text-indent: 1.5em;
+    background-image: url(./icons/santos.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic5 {
+    text-indent: 1.5em;
+    background-image: url(./icons/saopaulo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic6 {
+    text-indent: 1.5em;
+    background-image: url(./icons/goias.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic7 {
+    text-indent: 1.5em;
+    background-image: url(./icons/botafogo.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic8 {
+    text-indent: 1.5em;
+    background-image: url(./icons/fla.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic9 {
+    text-indent: 1.5em;
+    background-image: url(./icons/cruzeiro.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic10 {
+    text-indent: 1.5em;
+    background-image: url(./icons/guarani.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic11 {
+    text-indent: 1.5em;
+    background-image: url(./icons/palmeiras.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic12 {
+    text-indent: 1.5em;
+    background-image: url(./icons/gremio.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic13 {
+    text-indent: 1.5em;
+    background-image: url(./icons/avai.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic14 {
+    text-indent: 1.5em;
+    background-image: url(./icons/vitoria.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic15 {
+    text-indent: 1.5em;
+    background-image: url(./icons/120px-Grêmio_Prudente2019.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic16 {
+    text-indent: 1.5em;
+    background-image: url(./icons/atlpr.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic17 {
+    text-indent: 1.5em;
+    background-image: url(./icons/interrs.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic18 {
+    text-indent: 1.5em;
+    background-image: url(./icons/atletico.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic19 {
+    text-indent: 1.5em;
+    background-image: url(./icons/vasco.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+
+.ic20 {
+    text-indent: 1.5em;
+    background-image: url(./icons/atlego.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
